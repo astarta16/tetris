@@ -118,8 +118,8 @@ def move_piece(board, piece, direction):
         piece["x"] -= direction
 
 def rotate_piece(board, piece):
-    if piece["shape"] == [[1, 1], [1, 1]]:  # Check for 'O' shape
-        return  # No rotation needed for 'O' shape
+    if piece["shape"] == [[1, 1], [1, 1]]: 
+        return 
 
     original_shape = piece["shape"]
     piece["shape"] = [list(reversed(row)) for row in zip(*piece["shape"])]
