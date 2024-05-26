@@ -1,7 +1,6 @@
 import pygame
 import random
 
-# Define constants
 WIDTH, HEIGHT = 300, 600
 BLOCK_SIZE = 30
 ROWS = 20
